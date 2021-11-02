@@ -7,4 +7,4 @@ def bmi(height,mass):
 height = float(input("Enter the height in meters:"))
 mass = float(input("Enter the weight in kg:"))
 b_index = bmi(height,mass)
-print("Your BMI is:","{0.2f}".format(b_index))
+print("Your BMI is:","{:.2f}".format(b_index))
